@@ -14,7 +14,7 @@ public class Main {
         } else if (clientOS == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
-//Задача N3
+//Задача 3
         int year = 2021;
         if (year < 1584) {
             System.out.println(year + " год не вискосный");
@@ -38,7 +38,7 @@ public class Main {
         } else {
             System.out.println("Свыше 100км доставки нету");
         }
-//Задачв 5
+//Задачв N5
         int monthNumber = 12;
         switch (monthNumber) {
             case 12:
