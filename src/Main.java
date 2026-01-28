@@ -38,7 +38,7 @@ public class Main {
         } else {
             System.out.println("Свыше 100км доставки нету");
         }
-//Задачв N5
+//Задачв 5
         int monthNumber = 12;
         switch (monthNumber) {
             case 12:
