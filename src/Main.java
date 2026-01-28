@@ -1,20 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        //Задача 1
+        //Задача N1
         int clientOS = 1;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
-// Задача 2
+// Задача N2
         int clientDeviceYear = 2015;
         if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         } else if (clientOS == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
-//Задача 3
+//Задача N3
         int year = 2021;
         if (year < 1584) {
             System.out.println(year + " год не вискосный");
@@ -23,7 +23,7 @@ public class Main {
         } else {
             System.out.println(year + " год не вискосный");
         }
-//Задача 4
+//Задача N4
         int deliveryDistance = 95;
         int day;
         if (deliveryDistance <= 20) {
@@ -38,7 +38,7 @@ public class Main {
         } else {
             System.out.println("Свыше 100км доставки нету");
         }
-//Задачв 5
+//Задачв N5
         int monthNumber = 12;
         switch (monthNumber) {
             case 12:
