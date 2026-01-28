@@ -14,7 +14,7 @@ public class Main {
         } else if (clientOS == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
-//Задача 3
+//Задача N3
         int year = 2021;
         if (year < 1584) {
             System.out.println(year + " год не вискосный");
