@@ -16,12 +16,12 @@ public class Main {
         }
 //Задача N3
         int year = 2021;
-        if (year < 1584) {
-            System.out.println(year + " год не вискосный");
+        if (year <= 1584) {
+            System.out.println(year + " год не високосный");
         } else if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-            System.out.println(year + " год вискосный");
+            System.out.println(year + " год високосный");
         } else {
-            System.out.println(year + " год не вискосный");
+            System.out.println(year + " год не високосный");
         }
 //Задача N4
         int deliveryDistance = 95;
