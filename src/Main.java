@@ -8,11 +8,15 @@ public class Main {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
 // Задача N2
-        int clientDeviceYear = 2015;
-        if (clientOS == 0 && clientDeviceYear < 2015) {
+        int deviceClientYear = 2015;
+        if (clientOS == 0 && deviceClientYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientOS == 1 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else if (clientOS == 1 && deviceClientYear < 2015) {
+            System.out.println("Установите облегченную версию для Android по ссылке");
+        } else if (clientOS ==0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для Android по ссылке");
         }
 //Задача N3
         int year = 2021;
